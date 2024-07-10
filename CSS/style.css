@@ -21,15 +21,38 @@ body {
   min-height: 100vh;
 }
 
+.pt1 {
+  display: flex;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 206px;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   color: orange;
   padding: 1rem 0 0 1rem;
+  width: 200px;
 }
 
 h3 {
   font-family: "Roboto", sans-serif;
   color: orange;
-  padding-left: 2.3rem;
   font-weight: 100;
+  width: 180px;
+  padding-left: 2.2rem;
+}
+
+.whatsapp {
+  width: 206px;
+  text-align: end;
+  padding: 1rem 2rem;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
 }
