@@ -69,12 +69,11 @@ h3 {
 
 .hidden {
   opacity: 0;
-  height: 800px;
+  height: 600px;
   width: 100%;
   margin-top: 2rem;
   background-color: #222222;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius: 50px;
   filter: blur(20px);
   transition: all 1.5s;
   transform: translateY(100%);
