@@ -94,6 +94,7 @@ h3 {
 
 .last {
   margin: 2rem 0 0 2.5rem;
+  width: 200px;
 }
 
 /* Parte 3 */
@@ -207,16 +208,47 @@ h3 {
   margin-top: 1.7rem;
 }
 
-/*
-@media screen and (min-width: 425px) {
+
+@media screen and (min-width: 375px) {
   .content {
-      max-width: 425px;
+      max-width: 375px;
       margin: 0 auto;
   }
 
-  .pokemons {
-      grid-template-columns: 1fr 1fr;
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 187.5px;
   }
 
+  .whatsapp {
+    width: 187.5px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 2.5rem;
+    width: 260px;
+  }
+  
+  .hidden {
+    height: 300px;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+  }
+
+  .img {
+    width: 150px;
+  }
 }
-  */
