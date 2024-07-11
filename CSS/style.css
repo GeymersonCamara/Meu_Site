@@ -252,3 +252,48 @@ h3 {
     width: 150px;
   }
 }
+
+@media screen and (min-width: 425px) {
+  .content {
+      max-width: 425px;
+      margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 212.5px;
+    padding-left: 1rem;
+  }
+
+  .whatsapp {
+    width: 212.5px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 2.5rem;
+    width: 260px;
+  }
+  
+  .hidden {
+    height: 300px;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+  }
+
+  .img {
+    width: 150px;
+  }
+}
