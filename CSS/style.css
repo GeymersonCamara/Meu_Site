@@ -28,34 +28,37 @@ body {
 .name {
   display: flex;
   flex-direction: column;
-  width: 206px;
+  width: 165px;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
+  font-size: 17px;
   color: orange;
-  padding: 1rem 0 0 1rem;
-  width: 200px;
+  padding: 1rem 0 0 .5rem;
+  width: 165px;
 }
 
 h3 {
   font-family: "Roboto", sans-serif;
+  font-size: 17px;
   color: orange;
   font-weight: 100;
-  width: 180px;
-  padding-left: 2.2rem;
+  width: 165px;
+  padding-left: 1.7rem;
 }
 
 .whatsapp {
   width: 206px;
-  text-align: end;
-  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .button {
   padding: 0.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 15px;
   text-decoration: none;
   color: #1c1c1c;
   background-color: orange;
@@ -202,3 +205,17 @@ h3 {
 .icon {
   margin-top: 1.7rem;
 }
+
+/*
+@media screen and (min-width: 425px) {
+  .content {
+      max-width: 425px;
+      margin: 0 auto;
+  }
+
+  .pokemons {
+      grid-template-columns: 1fr 1fr;
+  }
+
+}
+  */
