@@ -118,6 +118,10 @@ h3 {
 }
 
 /* Parte 4 */
+.arte {
+  width: 150px;
+}
+
 .photo {
   display: flex;
   justify-content: space-between;
@@ -248,9 +252,6 @@ h3 {
     justify-content: space-around;
   }
 
-  .img {
-    width: 150px;
-  }
 }
 
 @media screen and (min-width: 425px) {
@@ -277,11 +278,11 @@ h3 {
 
   .last {
     margin: 2rem 0 0 2.5rem;
-    width: 260px;
+    width: 300px;
   }
   
   .hidden {
-    height: 300px;
+    height: 350px;
   }
 
   /* Parte 4 */
@@ -293,7 +294,85 @@ h3 {
     justify-content: space-around;
   }
 
-  .img {
-    width: 150px;
+  .arte {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+      max-width: 768px;
+      margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    padding-left: 2rem;
+  }
+
+  .whatsapp {
+    width: 384px;
+    text-align: end;
+    margin-top: 25px;
+    padding-right: 2rem;
+  }
+
+  .button {
+    font-size: 17px;
+    padding: .7rem;
+    border-radius: 35px;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 4rem;
+    width: 550px;
+  }
+  
+  .hidden {
+    height: 600px;
+  }
+
+  /* Parte 3*/
+  .text {
+    font-size: 30px;
+    padding: 1rem 1.5rem;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+  }
+
+  .arte {
+    width: 290px;
+  }
+
+  /* Parte 6 */
+  .text2 {
+    font-size: 30px;
+    padding-top: 5rem;
+  }
+
+  .buttom {
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    font-size: 25px;
+  }
+
+  .portifolio {
+    padding-top: 5rem;
+  }
+
+  .pe {
+    margin-top: 150px;
   }
 }
