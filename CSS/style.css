@@ -470,3 +470,97 @@ h3 {
     margin-top: 150px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .content {
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    padding: 1.5rem 2rem;
+  }
+
+  .whatsapp {
+    width: 720px;
+    text-align: end;
+    margin-top: 50px;
+    padding-right: 2rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    width: 350px;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 350px;
+    padding-left: 2.4rem;
+  }
+
+  .button {
+    font-size: 17px;
+    font-size: 25px;
+    padding: 1rem 2rem;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 2rem;
+    width: 650px;
+  }
+  
+  .hidden {
+    position: absolute;
+    height: 750px;
+  }
+
+  /* Parte 3*/
+  .text {
+    font-size: 35px;
+    margin: 3rem 0 0 16.9rem;
+    width: 650px;
+    align-items: end;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+
+  .arte {
+    width: 450px;
+  }
+
+  /* Parte 6 */
+  .text2 {
+    font-size: 30px;
+    padding-top: 5rem;
+  }
+
+  .buttom {
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    font-size: 25px;
+  }
+
+  .portifolio {
+    padding-top: 5rem;
+  }
+
+  .pe {
+    margin-top: 150px;
+  }
+}
