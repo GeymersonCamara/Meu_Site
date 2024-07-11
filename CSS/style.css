@@ -116,5 +116,12 @@ h3 {
 .photo {
   display: flex;
   justify-content: space-between;
-  padding: .35rem;
+  padding: .8rem;
+  border-radius: 10px;
+}
+
+.photo2 {
+  display: flex;
+  justify-content: space-between;
+  padding: .8rem;
 }
