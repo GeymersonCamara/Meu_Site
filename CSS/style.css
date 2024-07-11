@@ -116,19 +116,19 @@ h3 {
 .photo {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: .5rem 0;
   border-radius: 10px;
   filter: blur(20px);
-  transition: all 5s;
+  transition: all 1.5s;
   transform: translateX(-100%);
 }
 
 .aparecer2 {
   opacity: 1;
   filter: blur(0px);
-  transition: all 1s;
+  transition: all 1.5s;
   transform: translateY(0);
-  padding: .2rem;
+  padding: .5rem;
   margin: auto;
 }
 
@@ -139,5 +139,22 @@ h3 {
 .photo2 {
   display: flex;
   justify-content: space-between;
-  padding: .8rem;
+  padding: .5rem;
+  border-radius: 10px;
+  filter: blur(20px);
+  transition: all 1.5s;
+  transform: translateX(-100%);
+}
+
+.aparecer2 {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 1.5s;
+  transform: translateY(0);
+  padding: .5rem;
+  margin: auto;
+}
+
+.photo2 :nth-last-child(1) {
+  transition-delay: 400ms;
 }
