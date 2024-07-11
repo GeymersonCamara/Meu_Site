@@ -25,3 +25,17 @@ const meuObservador = new IntersectionObserver((entrada) => {
 const elemento = document.querySelectorAll(".text");
 
 elemento.forEach((elemento) => meuObservador.observe(elemento));
+
+const meuObservador2 = new IntersectionObserver((entrada) => {
+    entrada.forEach((entrar) => {
+        if (entrar.isIntersecting) {
+            entrar.target.classList.add('aparecer2')
+        } else {
+            entrar.target.classList.remove('aparecer2')
+        }
+    });
+});
+
+const elemento2 = document.querySelectorAll(".photo");
+
+elemento2.forEach((elemento2) => meuObservador2.observe(elemento2));
