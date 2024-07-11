@@ -533,6 +533,7 @@ h3 {
   /* Parte 4 */
   .photo {
     justify-content: space-around;
+    margin-top: 10rem;
   }
 
   .photo2 {
@@ -541,19 +542,19 @@ h3 {
   }
 
   .arte {
-    width: 450px;
+    width: 650px;
   }
 
   /* Parte 6 */
   .text2 {
-    font-size: 30px;
+    font-size: 50px;
     padding-top: 5rem;
   }
 
   .buttom {
-    padding: 1rem 2rem;
-    border-radius: 35px;
-    font-size: 25px;
+    padding: 1rem 3rem;
+    border-radius: 45px;
+    font-size: 40px;
   }
 
   .portifolio {
