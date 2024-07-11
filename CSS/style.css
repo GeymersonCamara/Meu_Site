@@ -111,3 +111,10 @@ h3 {
   transition: all 1.5s;
   transform: translateY(0);
 }
+
+/* Parte 4 */
+.photo {
+  display: flex;
+  justify-content: space-between;
+  padding: .35rem;
+}
