@@ -23,6 +23,8 @@ body {
 
 .pt1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
@@ -596,9 +598,9 @@ h3 {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1860px) {
   .content {
-    max-width: 1920px;
+    max-width: 1860px;
     margin: 0 auto;
   }
 
@@ -607,114 +609,13 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 960px;
-    padding: 1.5rem 5rem;
+    padding: 3rem 10rem;
   }
 
   .whatsapp {
     width: 960px;
     text-align: end;
-    margin-top: 50px;
-    padding-right: 5rem;
-  }
-
-  h1 {
-    font-size: 25px;
-    width: 350px;
-    padding: 0;
-  }
-
-  h3 {
-    font-size: 25px;
-    width: 350px;
-    padding-left: 2.4rem;
-  }
-
-  .button {
-    font-size: 17px;
-    font-size: 25px;
-    padding: 1rem 2rem;
-  }
-
-  .banner {
-    margin-top: 5rem;
-  }
-
-  /* Parte 2 */
-
-  .last {
-    margin: 2rem 0 0 5rem;
-    width: 720px;
-  }
-
-  .hidden {
-    position: absolute;
-    height: 800px;
-    border-radius: 200px;
-    margin-top: 200px;
-  }
-
-  /* Parte 3*/
-  .text {
-    font-size: 45px;
-    margin: 8.5rem 0 0 20rem;
-    width: 1000px;
-    align-items: end;
-  }
-
-  /* Parte 4 */
-  .photo {
-    justify-content: space-around;
-    margin-top: 15rem;
-  }
-
-  .photo2 {
-    justify-content: space-around;
-    margin-top: 5rem;
-  }
-
-  .arte {
-    width: 650px;
-  }
-
-  /* Parte 6 */
-  .text2 {
-    font-size: 50px;
-    padding-top: 5rem;
-  }
-
-  .buttom {
-    padding: 1rem 3rem;
-    border-radius: 45px;
-    font-size: 40px;
-  }
-
-  .portifolio {
-    padding-top: 5rem;
-  }
-
-  .pe {
-    margin-top: 150px;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  .content {
-    max-width: 2560px;
-    margin: 0 auto;
-  }
-
-  /* Parte 1 */
-  .name {
-    display: flex;
-    flex-direction: column;
-    width: 1280px;
-    padding: 3rem 0 0 10rem;
-  }
-
-  .whatsapp {
-    width: 1280px;
-    text-align: end;
-    margin-top: 80px;
+    margin-top: 0px;
     padding-right: 10rem;
   }
 
@@ -737,50 +638,183 @@ h3 {
   }
 
   .banner {
-    margin-top: 5rem;
+    margin: auto;
+    display: block;
+    width: 1500px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
 
   /* Parte 2 */
-
-  .last {
-    margin: 2rem 0 0 5rem;
-    width: 720px;
-  }
 
   .hidden {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 1500px;
+    position: absolute;
+    height: 750px;
+    margin-top: 37rem;
+  }
+
+  .last {
+    margin: 2rem 0 0 2rem;
+    width: 700px;
   }
 
   /* Parte 3*/
   .text {
-    font-size: 45px;
-    margin: 8.5rem 0 0 20rem;
-    width: 1000px;
+    font-size: 42px;
+    margin: 4rem 0 0 22rem;
+    width: 750px;
     align-items: end;
   }
 
   /* Parte 4 */
   .photo {
-    justify-content: space-around;
-    margin-top: 15rem;
+    margin-top: 10rem;
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
   }
 
   .photo2 {
-    justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
   }
 
   .arte {
-    width: 650px;
+    width: 500px;
   }
 
   /* Parte 6 */
   .text2 {
-    font-size: 50px;
+    font-size: 40px;
+    padding-top: 7rem;
+  }
+
+  .buttom {
+    padding: 1rem 3rem;
+    border-radius: 45px;
+    font-size: 40px;
+  }
+
+  .portifolio {
     padding-top: 5rem;
+  }
+
+  .pe {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1880px) {
+  .content {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    padding: 3rem 10rem;
+  }
+
+  .whatsapp {
+    width: 960px;
+    text-align: end;
+    margin-top: 0px;
+    padding-right: 10rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    width: 350px;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 350px;
+    padding-left: 2rem;
+  }
+
+  .button {
+    font-size: 17px;
+    font-size: 25px;
+    padding: 1rem 2rem;
+  }
+
+  .banner {
+    margin: auto;
+    display: block;
+    width: 1500px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  /* Parte 2 */
+
+  .hidden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    position: absolute;
+    height: 750px;
+    margin-top: 37rem;
+  }
+
+  .last {
+    margin: 2rem 0 0 2rem;
+    width: 700px;
+  }
+
+  /* Parte 3*/
+  .text {
+    font-size: 42px;
+    margin: 3rem 0 0 22rem;
+    width: 750px;
+    align-items: end;
+  }
+
+  /* Parte 4 */
+  .photo {
+    margin-top: 10rem;
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .photo2 {
+    margin-top: 3rem;
+    width: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .arte {
+    width: 550px;
+  }
+
+  /* Parte 6 */
+  .text2 {
+    font-size: 40px;
+    padding-top: 7rem;
   }
 
   .buttom {
