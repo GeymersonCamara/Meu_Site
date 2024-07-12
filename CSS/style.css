@@ -535,21 +535,26 @@ h3 {
   /* Parte 2 */
 
   .last {
-    margin: 2rem 0 0 2rem;
-    width: 650px;
+    margin: 2rem 0 0 1.5rem;
+    width: 450px;
   }
 
   .hidden {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 940px;
     position: absolute;
     height: 750px;
+    margin-top: 22rem;
   }
 
   /* Parte 3*/
   .text {
-    font-size: 35px;
+    font-size: 26.2px;
     margin: 3rem 0 0 16.9rem;
-    width: 650px;
+    width: 470px;
     align-items: end;
   }
 
@@ -565,7 +570,7 @@ h3 {
   }
 
   .arte {
-    width: 650px;
+    width: 400px;
   }
 
   /* Parte 6 */
@@ -742,15 +747,8 @@ h3 {
 
   .hidden {
     position: absolute;
-    height: 800px;
-    border-radius: 200px;
-    margin-top: 200px;
-    position: absolute;
-
     top: 50%;
-
     left: 50%;
-
     transform: translate(-50%, -50%);
   }
 
