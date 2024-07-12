@@ -35,7 +35,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   color: orange;
-  padding: 1rem 0 0 .5rem;
+  padding: 1rem 0 0 0.5rem;
   width: 165px;
 }
 
@@ -212,11 +212,10 @@ h3 {
   margin-top: 1.7rem;
 }
 
-
 @media screen and (min-width: 375px) {
   .content {
-      max-width: 375px;
-      margin: 0 auto;
+    max-width: 375px;
+    margin: 0 auto;
   }
 
   /* Parte 1 */
@@ -238,7 +237,7 @@ h3 {
     margin: 2rem 0 0 2.5rem;
     width: 260px;
   }
-  
+
   .hidden {
     height: 300px;
   }
@@ -251,13 +250,12 @@ h3 {
   .photo2 {
     justify-content: space-around;
   }
-
 }
 
 @media screen and (min-width: 425px) {
   .content {
-      max-width: 425px;
-      margin: 0 auto;
+    max-width: 425px;
+    margin: 0 auto;
   }
 
   /* Parte 1 */
@@ -280,7 +278,7 @@ h3 {
     margin: 2rem 0 0 2.5rem;
     width: 300px;
   }
-  
+
   .hidden {
     height: 350px;
   }
@@ -301,8 +299,8 @@ h3 {
 
 @media screen and (min-width: 768px) {
   .content {
-      max-width: 768px;
-      margin: 0 auto;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   /* Parte 1 */
@@ -322,7 +320,7 @@ h3 {
 
   .button {
     font-size: 17px;
-    padding: .7rem;
+    padding: 0.7rem;
     border-radius: 35px;
   }
 
@@ -332,7 +330,7 @@ h3 {
     margin: 2rem 0 0 4rem;
     width: 550px;
   }
-  
+
   .hidden {
     height: 600px;
   }
@@ -380,11 +378,15 @@ h3 {
 
 @media screen and (min-width: 1024px) {
   .content {
-      max-width: 1024px;
-      margin: 0 auto;
+    max-width: 1024px;
+    margin: 0 auto;
   }
 
   /* Parte 1 */
+  .pt1 {
+    margin-bottom: 50px;
+  }
+
   .name {
     display: flex;
     flex-direction: column;
@@ -412,8 +414,16 @@ h3 {
 
   .button {
     font-size: 17px;
-    padding: .7rem;
+    padding: 0.7rem;
     border-radius: 35px;
+  }
+
+  .banner {
+    margin: auto;
+    display: block;
+    width: 940px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
 
   /* Parte 2 */
@@ -422,7 +432,7 @@ h3 {
     margin: 2rem 0 0 2rem;
     width: 450px;
   }
-  
+
   .hidden {
     position: absolute;
     height: 600px;
@@ -473,29 +483,33 @@ h3 {
 
 @media screen and (min-width: 1440px) {
   .content {
-      max-width: 1440px;
-      margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   /* Parte 1 */
+  .pt1 {
+    margin-bottom: 50px;
+  }
+
   .name {
     display: flex;
     flex-direction: column;
     width: 720px;
-    padding: 1.5rem 2rem;
+    padding-left: 13rem;
   }
 
   .whatsapp {
     width: 720px;
     text-align: end;
-    margin-top: 50px;
-    padding-right: 2rem;
+    margin-top: 45px;
+    padding-right: 13rem;
   }
 
   h1 {
+    padding-top: 1.5rem;
     font-size: 25px;
     width: 350px;
-    padding: 0;
   }
 
   h3 {
@@ -506,8 +520,16 @@ h3 {
 
   .button {
     font-size: 17px;
-    font-size: 25px;
-    padding: 1rem 2rem;
+    padding: 0.7rem;
+    border-radius: 35px;
+  }
+
+  .banner {
+    margin: auto;
+    display: block;
+    width: 940px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
   }
 
   /* Parte 2 */
@@ -516,8 +538,9 @@ h3 {
     margin: 2rem 0 0 2rem;
     width: 650px;
   }
-  
+
   .hidden {
+    width: 940px;
     position: absolute;
     height: 750px;
   }
@@ -539,6 +562,215 @@ h3 {
   .photo2 {
     justify-content: space-around;
     margin-top: 2rem;
+  }
+
+  .arte {
+    width: 650px;
+  }
+
+  /* Parte 6 */
+  .text2 {
+    font-size: 50px;
+    padding-top: 5rem;
+  }
+
+  .buttom {
+    padding: 1rem 3rem;
+    border-radius: 45px;
+    font-size: 40px;
+  }
+
+  .portifolio {
+    padding-top: 5rem;
+  }
+
+  .pe {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .content {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    padding: 1.5rem 5rem;
+  }
+
+  .whatsapp {
+    width: 960px;
+    text-align: end;
+    margin-top: 50px;
+    padding-right: 5rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    width: 350px;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 350px;
+    padding-left: 2.4rem;
+  }
+
+  .button {
+    font-size: 17px;
+    font-size: 25px;
+    padding: 1rem 2rem;
+  }
+
+  .banner {
+    margin-top: 5rem;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 5rem;
+    width: 720px;
+  }
+
+  .hidden {
+    position: absolute;
+    height: 800px;
+    border-radius: 200px;
+    margin-top: 200px;
+  }
+
+  /* Parte 3*/
+  .text {
+    font-size: 45px;
+    margin: 8.5rem 0 0 20rem;
+    width: 1000px;
+    align-items: end;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+    margin-top: 15rem;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+
+  .arte {
+    width: 650px;
+  }
+
+  /* Parte 6 */
+  .text2 {
+    font-size: 50px;
+    padding-top: 5rem;
+  }
+
+  .buttom {
+    padding: 1rem 3rem;
+    border-radius: 45px;
+    font-size: 40px;
+  }
+
+  .portifolio {
+    padding-top: 5rem;
+  }
+
+  .pe {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .content {
+    max-width: 2560px;
+    margin: 0 auto;
+  }
+
+  /* Parte 1 */
+  .name {
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    padding: 3rem 0 0 10rem;
+  }
+
+  .whatsapp {
+    width: 1280px;
+    text-align: end;
+    margin-top: 80px;
+    padding-right: 10rem;
+  }
+
+  h1 {
+    font-size: 25px;
+    width: 350px;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+    width: 350px;
+    padding-left: 2rem;
+  }
+
+  .button {
+    font-size: 17px;
+    font-size: 25px;
+    padding: 1rem 2rem;
+  }
+
+  .banner {
+    margin-top: 5rem;
+  }
+
+  /* Parte 2 */
+
+  .last {
+    margin: 2rem 0 0 5rem;
+    width: 720px;
+  }
+
+  .hidden {
+    position: absolute;
+    height: 800px;
+    border-radius: 200px;
+    margin-top: 200px;
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  /* Parte 3*/
+  .text {
+    font-size: 45px;
+    margin: 8.5rem 0 0 20rem;
+    width: 1000px;
+    align-items: end;
+  }
+
+  /* Parte 4 */
+  .photo {
+    justify-content: space-around;
+    margin-top: 15rem;
+  }
+
+  .photo2 {
+    justify-content: space-around;
+    margin-top: 5rem;
   }
 
   .arte {
